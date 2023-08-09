@@ -1,0 +1,47 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "ada0d646-5981-4b18-b5d2-6f7b70692131",
+        "name": "hi"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "api.eu.cloud.talend.com",
+              "path": "/tmc/swagger/api-v2.6.json"
+            },
+            "id": "39bee631-a2da-4d57-a829-ace62edeef58",
+            "name": "hi",
+            "headers": []
+          }
+        }
+      ]
+    }
+  ]
+}
